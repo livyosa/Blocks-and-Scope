@@ -1,0 +1,17 @@
+const logVisibleLightWaves = () => {
+  let lightWaves = 'Moonlight';
+	let region = 'The Arctic';
+  if (region === 'The Arctic'){
+    let lightWaves = 'Northern Lights';
+    console.log(lightWaves)
+  };
+// Local variables are confined in a the {} of function block.
+  
+  console.log(lightWaves);
+
+};
+
+logVisibleLightWaves();
+// Calling the code outside of the {} of the function block will return an error. Creates scope pollution.
+
+// Practice good scoping to ensure your code has clean, orgainze, and modular logic.
